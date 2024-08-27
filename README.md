@@ -9,7 +9,7 @@ Este projeto tem como objetivo otimizar o processo de leitura e análise dos doc
 A análise manual dos documentos DIEF apresentava desafios significativos, como altos tempos de processamento e uma maior probabilidade de erros.
 
 ## Solução
-Desenvolvi uma solução de automação que inclui leitura e processamento eficiente, análise acurada e melhoria de performance.
+Desenvolvi uma solução de automação que inclui leitura e processamento eficiente, análise apurada e melhoria de performance.
 
 # Passos para Modelagem de Dados usando Power Query
 
