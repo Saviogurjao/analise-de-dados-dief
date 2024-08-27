@@ -13,6 +13,12 @@ Desenvolvi uma solução de automação que inclui leitura e processamento efici
 
 # Passos para Modelagem de Dados usando Power Query
 
+## Anexar uma Tabela com os Números do CFOP:
+
+1. Crie ou obtenha uma tabela com os números do CFOP (Código Fiscal de Operações e Prestações).
+2. Insira essa tabela em uma nova planilha no Excel, certificando-se de que ela esteja bem estruturada, com colunas como "CFOP" e "Descrição".
+3. Nomeie a tabela (por exemplo, "TabelaCFOP") para facilitar a referência no Power Query.
+
 ## Importar o Documento DIEF:
 
 1. Abra o Excel e vá para a guia **Dados**.
@@ -49,6 +55,14 @@ Desenvolvi uma solução de automação que inclui leitura e processamento efici
 
 - Quando estiver satisfeito com as transformações, clique em **Fechar e Carregar** para carregar os dados de volta no Excel.
 - Você pode carregar os dados como uma tabela ou criar um relatório dinâmico (por exemplo, Tabela Dinâmica).
+
+## Fórmulas `SOMASE` para Calcular o Valor Total das DIEFs:
+
+Após a extração e modelagem dos dados, você pode usar as seguintes fórmulas `SOMASE` para calcular os totais de diferentes categorias dentro das DIEFs:
+
+- **Soma total por item:** 
+  ```excel
+  =SOMASE(TabelaDIEF[Item], "Nome do Item", TabelaDIEF[Valor])
   
 ## Criando um Codigo M
 
